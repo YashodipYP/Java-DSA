@@ -1,1 +1,4 @@
-Patterns/ .idea/
+.idea/
+out/
+**/out/
+**/.idea/
