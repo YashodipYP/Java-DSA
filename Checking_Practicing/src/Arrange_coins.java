@@ -1,5 +1,5 @@
 public class Arrange_coins {
-    class Solution {
+
         public int arrangeCoins(int n) {
 
             int  coinsLeft = n;
@@ -16,6 +16,6 @@ public class Arrange_coins {
 
             return completedRows;
 
-        }
+
     }
 }
