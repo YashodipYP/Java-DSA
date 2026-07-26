@@ -7,6 +7,6 @@ public class Global_variables {
     public static void main(String[] args) {
         fun();
         System.out.println(x);
-
+        System.out.println("Hello");
     }
 }

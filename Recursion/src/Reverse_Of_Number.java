@@ -11,6 +11,7 @@ public class Reverse_Of_Number {
     int n =234;
 
     reverse(n,0);
+        System.out.println("Hello");
 
     }
 

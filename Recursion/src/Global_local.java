@@ -7,6 +7,7 @@ public class Global_local {
         int x =4;
         System.out.println(x);
         x=6;
+        System.out.println("Hello");
     }
 
 }

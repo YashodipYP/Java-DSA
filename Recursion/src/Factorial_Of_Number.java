@@ -8,7 +8,7 @@ public class Factorial_Of_Number {
     }
 
     public static void main(String[] args) {
-
+        System.out.println("Hello");
         System.out.println(fact(5));
     }
 }

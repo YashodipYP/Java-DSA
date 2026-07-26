@@ -11,6 +11,8 @@ public class a_raised_to_power_b {
         System.out.println("Power");
         int b = sc.nextInt();
         System.out.println(Math.pow(a,b));
+
+
     }
     public static int pow(int a , int b){
         if(b==0)return 1;

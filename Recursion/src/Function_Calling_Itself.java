@@ -6,5 +6,6 @@ public class Function_Calling_Itself {
         if(n==10) return;
         System.out.println("priya");
         ajay(n+1);
+        System.out.println("Hello");
     }
 }
