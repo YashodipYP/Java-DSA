@@ -1,0 +1,30 @@
+/**Given an integer s represented as a string, the task is to get the sum of all possible sub-strings of this string.
+
+        Note: The number may have leading zeros.
+It is guaranteed that the total sum will fit within a 32-bit signed integer.
+
+        Examples:
+
+Input: s = "6759"
+Output: 8421
+Explanation:
+Sum = 6 + 7 + 5 + 9 + 67 + 75 + 59 + 675 + 759 + 6759 = 8421**/
+public class Sum_Of_SubString {
+
+        public static int sumSubstrings(String s) {
+            int[] arr = new int[s.length()];
+            int count = 0;
+
+            for(int i = 0;i<s.length();i++){
+                for(int j = i+1;j<=s.length();j++){
+                    String part = s.substring(i,j);
+                    count += Integer.parseInt(part);
+                }
+
+
+            }
+            return count;
+
+        }
+    }
+
