@@ -5,4 +5,9 @@ public class sum_natural_number {
 
     }
 
+    public static void main(String[] args) {
+        int n = 10;
+        System.out.println(findsum(n));
+    }
+
 }
