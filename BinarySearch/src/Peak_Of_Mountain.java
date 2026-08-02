@@ -7,9 +7,11 @@ class Peak_Of_Mountain {
                 int mid = start +(end - start)/2;
                 if(arr[mid-1]<arr[mid]&&arr[mid]>arr[mid+1]){
                     return mid;
+
                 }
                 if(arr[mid-1]<arr[mid]){
                     start = mid + 1;
+                    System.out.println("Hello");
                 }
                 else{
                     end = mid -1;
@@ -17,5 +19,6 @@ class Peak_Of_Mountain {
             }
             return -1;
         }
+
     }
 
